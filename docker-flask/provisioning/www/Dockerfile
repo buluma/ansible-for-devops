@@ -1,6 +1,6 @@
 # A simple Flask app container.
-FROM geerlingguy/docker-ubuntu2004-ansible
-MAINTAINER Jeff Geerling <geerlingguy@mac.com>
+FROM buluma/docker-ubuntu2004-ansible
+MAINTAINER Michael Buluma
 
 # Install Flask app dependencies.
 RUN apt-get update

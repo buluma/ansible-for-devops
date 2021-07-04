@@ -1,5 +1,5 @@
 # A simple MySQL container.
 FROM mysql:5.7
-MAINTAINER Jeff Geerling <geerlingguy@mac.com>
+MAINTAINER Michael Buluma
 
 EXPOSE 3306

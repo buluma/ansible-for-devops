@@ -48,9 +48,9 @@ jobs:
           # - playbook: deployments-rolling.yml
           #   distro: ubuntu2004
 
-          # - playbook: docker.yml
-          #   distro: ubuntu2004
-          #   test_idempotence: false
+          - playbook: docker.yml
+            distro: ubuntu2004
+            test_idempotence: false
 
           # - playbook: docker-flask.yml
           #   distro: ubuntu2004
