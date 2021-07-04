@@ -1,0 +1,7 @@
+---
+roles:
+  - name: buluma.firewall
+  - name: buluma.pip
+  - name: buluma.ansible
+  - name: buluma.java
+  - name: buluma.jenkins
