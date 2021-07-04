@@ -16,8 +16,8 @@ jobs:
       matrix:
         include:
           - test_script: collection
-          - test_script: molecule
-          - test_script: orchestration
+          # - test_script: molecule
+          # - test_script: orchestration
 
     steps:
       - uses: actions/checkout@v2
@@ -35,9 +35,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - playbook: deployments.yml
-            distro: ubuntu2004
-            test_idempotence: false
+          # - playbook: deployments.yml
+          #   distro: ubuntu2004
+          #   test_idempotence: false
 
           # TODO: Not easy to test in CI at this time.
           # - playbook: deployments-balancer.yml
@@ -48,45 +48,45 @@ jobs:
           # - playbook: deployments-rolling.yml
           #   distro: ubuntu2004
 
-          - playbook: docker.yml
-            distro: ubuntu2004
-            test_idempotence: false
+          # - playbook: docker.yml
+          #   distro: ubuntu2004
+          #   test_idempotence: false
 
-          - playbook: docker-flask.yml
-            distro: ubuntu2004
-            test_idempotence: false
+          # - playbook: docker-flask.yml
+          #   distro: ubuntu2004
+          #   test_idempotence: false
 
-          - playbook: docker-hubot.yml
-            distro: ubuntu2004
-            test_idempotence: false
+          # - playbook: docker-hubot.yml
+          #   distro: ubuntu2004
+          #   test_idempotence: false
 
-          - playbook: drupal.yml
-            distro: ubuntu2004
+          # - playbook: drupal.yml
+          #   distro: ubuntu2004
 
           # TODO: Not easy to test in CI at this time.
           # - playbook: dynamic-inventory.yml
           #   distro: ubuntu2004
 
-          - playbook: elk.yml
-            distro: ubuntu2004
+          # - playbook: elk.yml
+          #   distro: ubuntu2004
 
           # TODO: This started failing on GitHub Actions.
           # See: https://github.com/geerlingguy/ansible-for-devops/issues/402
           # - playbook: first-ansible-playbook.yml
           #   distro: centos7
 
-          - playbook: galaxy-role-servers.yml
-            distro: ubuntu2004
+          # - playbook: galaxy-role-servers.yml
+          #   distro: ubuntu2004
 
           # TODO: Not easy to test in CI at this time.
           # - playbook: gluster.yml
           #   distro: ubuntu2004
 
-          - playbook: https-self-signed.yml
-            distro: ubuntu2004
+          # - playbook: https-self-signed.yml
+          #   distro: ubuntu2004
 
-          - playbook: https-nginx-proxy.yml
-            distro: debian10
+          # - playbook: https-nginx-proxy.yml
+          #   distro: debian10
 
           # TODO: This started failing on GitHub Actions.
           # See: https://github.com/geerlingguy/ansible-for-devops/issues/359
@@ -95,8 +95,8 @@ jobs:
 
           # TODO: This started failing on GitHub Actions.
           # See: https://github.com/geerlingguy/ansible-for-devops/issues/359
-          # - playbook: jenkins.yml
-          #   distro: ubuntu2004
+          - playbook: jenkins.yml
+            distro: ubuntu2004
 
           # TODO: Not easy to test in CI at this time.
           # - playbook: kubernetes.yml
@@ -106,20 +106,20 @@ jobs:
           # - playbook: lamp-infrastructure.yml
           #   distro: ubuntu2004
 
-          - playbook: nodejs.yml
-            distro: centos7
+          # - playbook: nodejs.yml
+          #   distro: centos7
 
-          - playbook: nodejs-role.yml
-            distro: centos7
+          # - playbook: nodejs-role.yml
+          #   distro: centos7
 
-          - playbook: security.yml
-            distro: centos8
+          # - playbook: security.yml
+          #   distro: centos8
 
-          - playbook: solr.yml
-            distro: ubuntu2004
+          # - playbook: solr.yml
+          #   distro: ubuntu2004
 
-          - playbook: test-plugin.yml
-            distro: centos7
+          # - playbook: test-plugin.yml
+          #   distro: centos7
 
     steps:
       - uses: actions/checkout@v2
