@@ -16,7 +16,7 @@ jobs:
       matrix:
         include:
           - test_script: collection
-          - test_script: molecule
+          # - test_script: molecule
           - test_script: orchestration
 
     steps:
