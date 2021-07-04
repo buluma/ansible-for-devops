@@ -1,0 +1,9 @@
+---
+- hosts: all
+  become: yes
+
+  roles:
+    - buluma.mysql
+    - buluma.apache
+    - buluma.php
+    - buluma.php_mysql

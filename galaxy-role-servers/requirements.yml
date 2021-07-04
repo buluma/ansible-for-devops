@@ -1,0 +1,8 @@
+---
+roles:
+  - name: buluma.mysql
+  - name: buluma.apache
+  - name: buluma.php
+  - name: buluma.php_mysql
+  - name: buluma.java
+  - name: buluma.solr
