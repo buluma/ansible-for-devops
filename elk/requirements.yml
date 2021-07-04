@@ -1,0 +1,15 @@
+---
+roles:
+- name: buluma.java
+- name: buluma.nginx
+- name: buluma.pip
+- name: buluma.elasticsearch
+  version: 1.0.0
+- name: buluma.elasticsearch_curator
+  version: 2.1.0
+- name: buluma.kibana
+  version: 1.0.2
+- name: buluma.logstash
+  version: 5.2.0
+- name: buluma.filebeat
+  version: 3.2.0

@@ -1,0 +1,8 @@
+---
+roles:
+  - name: buluma.swap
+  - name: buluma.docker
+  - name: buluma.kubernetes
+
+collections:
+  - name: community.kubernetes

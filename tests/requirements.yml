@@ -1,0 +1,29 @@
+---
+roles:
+  - name: buluma.ansible
+  - name: buluma.apache
+  - name: buluma.docker
+  - name: buluma.firewall
+  - name: buluma.git
+  - name: buluma.java
+  - name: buluma.jenkins
+  - name: buluma.mysql
+  - name: buluma.nginx
+  - name: buluma.nodejs
+  - name: buluma.passenger
+  - name: buluma.pip
+  - name: buluma.php
+  - name: buluma.php_mysql
+  - name: buluma.ruby
+  - name: buluma.solr
+
+  - name: buluma.elasticsearch
+    version: 1.0.0
+  - name: buluma.elasticsearch_curator
+    version: 2.1.0
+  - name: buluma.kibana
+    version: 1.0.2
+  - name: buluma.logstash
+    version: 5.2.0
+  - name: buluma.filebeat
+    version: 3.2.0
