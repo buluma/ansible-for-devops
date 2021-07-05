@@ -1,6 +1,6 @@
 ---
 roles:
-  - name: geerlingguy.firewall
+  - name: buluma.firewall
   - name: buluma.pip
   - name: buluma.ansible
   - name: buluma.java

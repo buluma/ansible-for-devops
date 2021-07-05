@@ -10,7 +10,7 @@
       - ansicolor
 
   roles:
-    - geerlingguy.firewall
+    - buluma.firewall
     - buluma.pip
     - buluma.ansible
     - buluma.java
