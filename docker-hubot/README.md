@@ -24,4 +24,4 @@ The container should be running in the background. You can inspect the logs from
 
 ## About the Author
 
-This project was created by [Jeff Geerling](https://www.jeffgeerling.com/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This project was created by [Michael Buluma](https://www.buluma.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).

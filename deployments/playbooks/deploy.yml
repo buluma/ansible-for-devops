@@ -11,6 +11,7 @@
   tasks:
     - name: Ensure demo application is at correct release.
       git:
+        # TODO: Move to owned repo
         repo: https://github.com/geerlingguy/demo-rails-app.git
         version: "{{ app_version }}"
         dest: "{{ app_directory }}"
