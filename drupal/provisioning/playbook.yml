@@ -45,7 +45,7 @@
           - php7.4-mbstring
           - php7.4-pdo
           - php7.4-mysql
-          - php-apcu
+          - php7.4-apcu
           - libpcre3-dev
           - libapache2-mod-php7.4
           - python3-mysqldb
@@ -124,12 +124,10 @@
         php composer-installer.php
         chdir=/tmp
         creates=/usr/local/bin/composer
-
     - name: Move Composer into globally-accessible location.
       command: >
         mv /tmp/composer.phar /usr/local/bin/composer
         creates=/usr/local/bin/composer
-
     - name: Ensure Drupal directory exists.
       file:
         path: "{{ drupal_core_path }}"
