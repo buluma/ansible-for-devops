@@ -13,6 +13,6 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
     - name: auto-dependabot-pull-request-merge
       uses: KeisukeYamashita/auto-dependabot-pull-request-merge@v1
