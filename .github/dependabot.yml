@@ -10,8 +10,8 @@ updates:
     directory: "/"
     schedule:
       interval: "daily"
-      # Check for npm updates at 9am UTC
-      time: "10:20"
+      # Check for npm updates at 10.20am UTC
+      time: "10:45"
     # Add assignees
     assignees:
       - "buluma"
@@ -22,8 +22,8 @@ updates:
     schedule:
       interval: "daily"
     
-      # Check for npm updates at 9am UTC
-      time: "10:20"
+      # Check for npm updates at 10.45am UTC
+      time: "10:45"
     # Add assignees
     assignees:
       - "buluma"
