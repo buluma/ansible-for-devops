@@ -11,7 +11,7 @@ updates:
     schedule:
       interval: "daily"
       # Check for npm updates at 10.20am UTC
-      time: "10:45"
+      time: "11:30"
     # Add assignees
     assignees:
       - "buluma"
@@ -23,7 +23,7 @@ updates:
       interval: "daily"
     
       # Check for npm updates at 10.45am UTC
-      time: "10:45"
+      time: "11:30"
     # Add assignees
     assignees:
       - "buluma"
