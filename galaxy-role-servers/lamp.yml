@@ -4,6 +4,6 @@
 
   roles:
     - buluma.mysql
-    - buluma.apache
+    - geerlingguy.apache
     - buluma.php
     - buluma.php_mysql
