@@ -9,6 +9,10 @@ name: CI
     - cron: '10 2 * * *'
   workflow_dispatch:
 
+concurrency:
+  group: ${{ github.ref }}-${{ github.workflow }}
+  cancel-in-progress: true
+
 jobs:
   scripts:
     name: Scripts
