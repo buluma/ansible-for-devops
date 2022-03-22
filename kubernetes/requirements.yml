@@ -1,8 +1,8 @@
 ---
 roles:
-  - name: buluma.swap
-  - name: buluma.docker
-  - name: buluma.kubernetes
+  - name: geerlingguy.swap
+  - name: geerlingguy.docker
+  - name: geerlingguy.kubernetes
 
 collections:
   - name: community.kubernetes

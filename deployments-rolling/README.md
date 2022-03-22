@@ -30,4 +30,4 @@ Some notable releases you could test:
 
 ## About the Author
 
-This project was created by [Michael Buluma](https://www.buluma.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This project was created by [Michael Buluma](https://www.geerlingguy.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).

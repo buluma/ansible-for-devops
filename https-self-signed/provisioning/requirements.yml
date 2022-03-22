@@ -1,5 +1,5 @@
 ---
 roles:
   - name: geerlingguy.firewall
-  - name: buluma.pip
-  - name: buluma.nginx
+  - name: geerlingguy.pip
+  - name: geerlingguy.nginx

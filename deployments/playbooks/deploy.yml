@@ -6,7 +6,7 @@
     - vars.yml
 
   roles:
-    - buluma.passenger
+    - geerlingguy.passenger
 
   tasks:
     - name: Ensure demo application is at correct release.

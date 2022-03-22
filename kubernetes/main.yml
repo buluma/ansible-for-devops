@@ -12,11 +12,11 @@
         dest: "~/kube-flannel-vagrant.yml"
 
   roles:
-    - role: buluma.swap
+    - role: geerlingguy.swap
       tags: ['swap', 'kubernetes']
 
-    - role: buluma.docker
+    - role: geerlingguy.docker
       tags: ['docker']
 
-    - role: buluma.kubernetes
+    - role: geerlingguy.kubernetes
       tags: ['kubernetes']

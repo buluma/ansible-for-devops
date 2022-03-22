@@ -13,8 +13,8 @@
 
   roles:
     - geerlingguy.firewall
-    - buluma.pip
-    - buluma.nginx
+    - geerlingguy.pip
+    - geerlingguy.nginx
 
   tasks:
     - import_tasks: tasks/self-signed-cert.yml

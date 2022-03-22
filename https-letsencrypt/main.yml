@@ -11,8 +11,8 @@
 
   roles:
     - geerlingguy.firewall
-    - buluma.nginx
-    - buluma.certbot
+    - geerlingguy.nginx
+    - geerlingguy.certbot
 
   tasks:
     - name: Ensure docroot exists.

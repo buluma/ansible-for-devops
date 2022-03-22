@@ -3,5 +3,5 @@
   become: yes
 
   roles:
-    - buluma.java
-    - buluma.solr
+    - geerlingguy.java
+    - geerlingguy.solr

@@ -10,11 +10,11 @@
       apt: update_cache=yes cache_valid_time=86400
 
   roles:
-    - buluma.java
-    - buluma.nginx
-    - buluma.pip
-    - buluma.elasticsearch
-    - buluma.elasticsearch_curator
-    - buluma.kibana
-    - buluma.logstash
-    - buluma.filebeat
+    - geerlingguy.java
+    - geerlingguy.nginx
+    - geerlingguy.pip
+    - geerlingguy.elasticsearch
+    - geerlingguy.elasticsearch_curator
+    - geerlingguy.kibana
+    - geerlingguy.logstash
+    - geerlingguy.filebeat

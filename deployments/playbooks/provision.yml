@@ -6,10 +6,10 @@
     - vars.yml
 
   roles:
-    - buluma.git
-    - buluma.nodejs
-    - buluma.ruby
-    - buluma.passenger
+    - geerlingguy.git
+    - geerlingguy.nodejs
+    - geerlingguy.ruby
+    - geerlingguy.passenger
 
   tasks:
     - name: Install app dependencies.

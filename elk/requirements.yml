@@ -1,15 +1,15 @@
 ---
 roles:
-- name: buluma.java
-- name: buluma.nginx
-- name: buluma.pip
-- name: buluma.elasticsearch
+- name: geerlingguy.java
+- name: geerlingguy.nginx
+- name: geerlingguy.pip
+- name: geerlingguy.elasticsearch
   version: 1.0.0
-- name: buluma.elasticsearch_curator
+- name: geerlingguy.elasticsearch_curator
   version: 2.1.0
-- name: buluma.kibana
+- name: geerlingguy.kibana
   version: 1.0.2
-- name: buluma.logstash
+- name: geerlingguy.logstash
   version: 5.2.0
-- name: buluma.filebeat
+- name: geerlingguy.filebeat
   version: 3.2.0

@@ -10,7 +10,7 @@
       apt: update_cache=yes cache_valid_time=3600
 
   roles:
-    - role: buluma.docker
+    - role: geerlingguy.docker
 
   tasks:
     - import_tasks: setup.yml

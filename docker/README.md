@@ -12,4 +12,4 @@ For a more complete example of using Ansible to build and manage Docker containe
 
 ## About the Author
 
-This project was created by [Michael Buluma](https://www.buluma.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This project was created by [Michael Buluma](https://www.geerlingguy.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).

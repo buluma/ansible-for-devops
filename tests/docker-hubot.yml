@@ -10,8 +10,8 @@
       apt: update_cache=yes cache_valid_time=600
 
   roles:
-    - buluma.docker
-    - buluma.pip
+    - geerlingguy.docker
+    - geerlingguy.pip
 
 # Docker Hubot test.
 - import_playbook: ../docker-hubot/main.yml

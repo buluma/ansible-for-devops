@@ -17,5 +17,5 @@
 
   roles:
     - geerlingguy.firewall  # TODO: build firewall again
-    - buluma.nodejs
-    - buluma.git
+    - geerlingguy.nodejs
+    - geerlingguy.git

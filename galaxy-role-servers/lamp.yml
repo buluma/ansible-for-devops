@@ -3,7 +3,7 @@
   become: yes
 
   roles:
-    - buluma.mysql
+    - geerlingguy.mysql
     - geerlingguy.apache
-    - buluma.php
-    - buluma.php_mysql
+    - geerlingguy.php
+    - geerlingguy.php_mysql

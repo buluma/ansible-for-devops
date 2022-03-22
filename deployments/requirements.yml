@@ -1,6 +1,6 @@
 ---
 roles:
-  - name: buluma.git
-  - name: buluma.ruby
-  - name: buluma.nodejs
-  - name: buluma.passenger
+  - name: geerlingguy.git
+  - name: geerlingguy.ruby
+  - name: geerlingguy.nodejs
+  - name: geerlingguy.passenger

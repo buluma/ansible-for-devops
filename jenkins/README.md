@@ -32,4 +32,4 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
 
 ## About the Author
 
-This project was created in 2021 by [Michael Buluma](https://www.buluma.co.ke/).
+This project was created in 2021 by [Michael Buluma](https://www.geerlingguy.co.ke/).

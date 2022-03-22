@@ -11,7 +11,7 @@
 
   roles:
     - geerlingguy.firewall
-    - buluma.pip
-    - buluma.ansible
-    - buluma.java
-    - buluma.jenkins
+    - geerlingguy.pip
+    - geerlingguy.ansible
+    - geerlingguy.java
+    - geerlingguy.jenkins

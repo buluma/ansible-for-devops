@@ -1,8 +1,8 @@
 ---
 roles:
-  - name: buluma.mysql
+  - name: geerlingguy.mysql
   - name: geerlingguy.apache
-  - name: buluma.php
-  - name: buluma.php_mysql
-  - name: buluma.java
-  - name: buluma.solr
+  - name: geerlingguy.php
+  - name: geerlingguy.php_mysql
+  - name: geerlingguy.java
+  - name: geerlingguy.solr
