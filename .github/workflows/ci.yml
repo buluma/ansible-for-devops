@@ -20,9 +20,9 @@ jobs:
     strategy:
       matrix:
         include:
-          - test_script: collection
-          # - test_script: molecule
-          - test_script: orchestration
+          # - test_script: collection
+          - test_script: molecule
+          # - test_script: orchestration
 
     steps:
       - uses: actions/checkout@v2
