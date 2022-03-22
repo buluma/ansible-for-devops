@@ -12,7 +12,7 @@
       apt: name=libssl-dev state=present
 
   roles:
-    - buluma.firewall
+    - geerlingguy.firewall
     - buluma.pip
     - buluma.nginx
 

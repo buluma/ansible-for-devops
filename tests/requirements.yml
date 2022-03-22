@@ -3,7 +3,7 @@ roles:
   - name: buluma.ansible
   - name: geerlingguy.apache
   - name: buluma.docker
-  - name: buluma.firewall
+  - name: geerlingguy.firewall
   - name: buluma.git
   - name: buluma.java
   - name: buluma.jenkins

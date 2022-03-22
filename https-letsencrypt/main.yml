@@ -10,7 +10,7 @@
       apt: update_cache=true cache_valid_time=600
 
   roles:
-    - buluma.firewall
+    - geerlingguy.firewall
     - buluma.nginx
     - buluma.certbot
 

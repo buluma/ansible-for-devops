@@ -1,5 +1,5 @@
 ---
 roles:
-  - name: buluma.firewall
+  - name: geerlingguy.firewall
   - name: buluma.certbot
   - name: buluma.nginx
