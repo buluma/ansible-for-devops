@@ -5,7 +5,7 @@ roles:
 - name: geerlingguy.pip
 - name: geerlingguy.elasticsearch
   version: 1.0.0
-- name: geerlingguy.elasticsearch_curator
+- name: geerlingguy.elasticsearch-curator
   version: 2.1.0
 - name: geerlingguy.kibana
   version: 1.0.2

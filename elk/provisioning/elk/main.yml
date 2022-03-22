@@ -14,7 +14,7 @@
     - geerlingguy.nginx
     - geerlingguy.pip
     - geerlingguy.elasticsearch
-    - geerlingguy.elasticsearch_curator
+    - geerlingguy.elasticsearch-curator
     - geerlingguy.kibana
     - geerlingguy.logstash
     - geerlingguy.filebeat
