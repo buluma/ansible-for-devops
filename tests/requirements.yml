@@ -13,7 +13,7 @@ roles:
   - name: geerlingguy.passenger
   - name: geerlingguy.pip
   - name: geerlingguy.php
-  - name: geerlingguy.php_mysql
+  - name: geerlingguy.php-mysql
   - name: geerlingguy.ruby
   - name: geerlingguy.solr
 

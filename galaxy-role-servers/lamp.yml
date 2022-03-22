@@ -6,4 +6,4 @@
     - geerlingguy.mysql
     - geerlingguy.apache
     - geerlingguy.php
-    - geerlingguy.php_mysql
+    - geerlingguy.php-mysql
