@@ -1,7 +1,7 @@
 {
   "name": "examplenodeapp",
   "description": "Example Express Node.js app.",
-  "author": "Michael Buluma <michael@geerlingguy.co.ke>",
+  "author": "Jeff Geerling <geerlingguy@mac.com>",
   "dependencies": {
     "express": "4.x"
   },

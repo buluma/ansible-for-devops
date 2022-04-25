@@ -124,10 +124,12 @@
         php composer-installer.php
         chdir=/tmp
         creates=/usr/local/bin/composer
+
     - name: Move Composer into globally-accessible location.
       command: >
         mv /tmp/composer.phar /usr/local/bin/composer
         creates=/usr/local/bin/composer
+
     - name: Ensure Drupal directory exists.
       file:
         path: "{{ drupal_core_path }}"

@@ -44,4 +44,4 @@ Note: *If there are any errors during the course of running `vagrant up`, and it
 
 ## About the Author
 
-This project was created by [Michael Buluma](https://www.geerlingguy.co.ke/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).
+This project was created by [Jeff Geerling](https://www.jeffgeerling.com/) as an example for [Ansible for DevOps](https://www.ansiblefordevops.com/).

@@ -4,12 +4,12 @@ roles:
 - name: geerlingguy.nginx
 - name: geerlingguy.pip
 - name: geerlingguy.elasticsearch
-  version: 1.0.0
+  version: 5.0.0
 - name: geerlingguy.elasticsearch-curator
   version: 2.1.0
 - name: geerlingguy.kibana
-  version: 1.0.2
+  version: 4.0.0
 - name: geerlingguy.logstash
-  version: 5.2.0
+  version: 5.1.0
 - name: geerlingguy.filebeat
-  version: 3.2.0
+  version: 3.0.1

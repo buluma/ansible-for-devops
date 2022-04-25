@@ -1,6 +1,6 @@
 ---
 name: Molecule CI
-on:
+'on':
   pull_request:
   push:
     branches:
@@ -14,10 +14,8 @@ jobs:
     strategy:
       matrix:
         distro:
-          - centos8
-          - centos7
-          - centos6
-          # - debian10
+          - rockylinux8
+          - debian10
 
     steps:
       - name: Check out the codebase.

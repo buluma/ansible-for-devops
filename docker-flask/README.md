@@ -40,4 +40,4 @@ If you'd like additional assistance editing your hosts file, please read [How do
 
 ## Author Information
 
-Created by by [Michael Buluma](https://www.geerlingguy.co.ke/), as an example in [Ansible for DevOps](https://www.ansiblefordevops.com/).
+Created by by [Jeff Geerling](https://www.jeffgeerling.com/), as an example in [Ansible for DevOps](https://www.ansiblefordevops.com/).
